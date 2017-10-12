@@ -1,0 +1,70 @@
+/* ~~~ Changes to the gameboard ~~~ */
+
+/* Board color, only really seen around the edges unless transparent squares used */
+
+.board {
+	fill: rgb(255, 29, 206);
+    opacity: 0.6;
+}
+
+/* Each little tile */
+.square {
+	stroke: #66FF00;
+	fill: #66FF00;
+    opacity: 0.7;
+}
+
+/* Color of the black tokens (player 1) */
+.black {
+	stroke: #000;
+	fill: #0000FF;
+}
+
+/* Color of the white tokens (player 2) */
+.white {
+	stroke: #000;
+	fill: #FF0000;
+}
+
+/* ~~~ Changes to the sites appearance ~~~ */
+
+/* Background color of the site */
+body  {
+	background-image: url("/img/hypnotize.gif");
+}
+
+/* changes the top tokens bar thing */
+.banner-overlay {
+    background: rgba(57, 255, 20, 0.2);
+}
+
+/* Color of the big boxes on the home screen */
+.panel {
+	background: aqua;
+}
+.modal-content {
+    background: #ffe135;
+}
+
+.panel:hover {
+	background: aquamarine;
+}
+span.glyphicon {
+	color: #FFEFD5;
+}
+
+/* Color of form elements */
+input, select {
+	background: #009;
+}
+
+/* Header color */
+.navbar-inverse {
+	background: aquamarine;
+    border-color: #080808;
+}
+
+/* Text colors/sizes */
+p, a, span, h1, h2, h3, h4, h5, h6, div {
+	color: white;
+}

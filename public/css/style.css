@@ -1,0 +1,127 @@
+
+#canvas{
+    border:8px solid #333;
+	border-radius: 7px;
+    margin:0 auto;
+}
+
+#themePicker {
+	position: absolute;
+	right: 0;
+	width: 150px;
+	margin-top: -20px;
+}
+
+body {
+	background: #f2f2f2;
+}
+
+.extra-pad {
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.banner {
+	background-image: url("/img/banner.png");
+	background-repeat: repeat-x;
+	height: 46px;
+	border-top: 2px solid black;
+}
+
+.banner-overlay {
+	background:rgba(0,0,0,0.3); 
+	width:100%; 
+	height: 100%;
+}
+
+.panel {
+  transition-property: background;
+  transition-duration: 300ms;
+}
+
+.panel:hover{
+  background: #eee;
+  cursor: pointer;
+}
+
+.navbar-brand {
+	font-size: 2em;
+}
+
+.primaryWord {
+	color: #fff;
+}
+
+.secondaryWord {
+	color: #7cc3ff;
+}
+
+.loginstatus {
+	color: #fff;
+	font-size: 1em;
+	margin-top: 12px;
+}
+
+.loginstatus a {
+	color: #9d9d9d;
+}
+
+.modal-body-game {
+    text-decoration: underline;
+}
+
+#headerz {
+    line-height: 45px;
+    text-decoration: underline;
+}
+
+#glyph1 {
+    width: 100px;
+    color: red;
+    line-height: 45px;
+    font-size: 80px;
+}
+
+#glyph2 {
+    width: 100px;
+    color: red;
+    line-height: 45px;
+    font-size: 80px;
+}
+
+/* Making squares clickable */ 
+.click {
+	z-index: 999;
+}
+
+.square {
+	z-index: -999;
+}
+
+/* 
+	Default board colors
+	Board color, only really seen around the edges unless transparent squares used 
+*/
+.board {
+	fill: rgb(124, 195, 255);
+    opacity: 0.6;
+}
+
+/* Each little tile */
+.square {
+	stroke: #000;
+	fill: #dfdfdf;
+    opacity: 0.7;
+}
+
+/* Color of the black tokens (player 1) */
+.black {
+	stroke: black;
+	fill: #007FFF;
+}
+
+/* Color of the white tokens (player 2) */
+.white {
+	stroke: #000;
+	fill: #F0FFFF;
+}

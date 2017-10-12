@@ -1,0 +1,74 @@
+/* ~~~ Changes to the gameboard ~~~ */
+
+/* Board color, only really seen around the edges unless transparent squares used */
+.board {
+	fill: rgb(255, 193, 204);
+    opacity: 0.6;
+}
+
+/* Each little tile */
+.square {
+	stroke: #FA8072;
+	fill: #E7FEFF;
+    opacity: 0.7;
+}
+
+/* Color of the black tokens (player 1) */
+.black {
+	stroke: black;
+	fill: #73C2FB;
+}
+
+/* Color of the white tokens (player 2) */
+.white {
+	stroke: #000;
+	fill: #FBAED2;
+}
+
+/* ~~~ Changes to the sites appearance ~~~ */
+
+/* Background color of the site */
+body  {
+	background: url("/img/cottoncandy.png");
+}
+
+/* changes the top tokens bar thing */
+.banner-overlay {
+    background: rgba(245, 105, 145, 0.2);
+}
+
+/* Color of the big boxes on the home screen */
+.panel {
+	background: #F08080;
+}
+.modal-content {
+    background: #F08080;
+}
+
+.panel:hover {
+	background: #A52A2A;
+}
+span.glyphicon {
+	color: #FFEFD5;
+}
+
+/* Color of form elements */
+input, select {
+	background: #DB7093;
+}
+
+/* Header color */
+.navbar-inverse {
+	/*background: #FFA6C9*/
+    background: #FBCCE7;
+    border-color: #080808;
+}
+
+/* Text colors/sizes */
+span, h5, h6, div {
+	color: #eee;
+}
+
+a, h1, h3, h2, h4, p {
+    color: black;
+}

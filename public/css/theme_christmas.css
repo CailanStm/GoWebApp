@@ -1,0 +1,73 @@
+/* ~~~ Changes to the gameboard ~~~ */
+
+/* Board color, only really seen around the edges unless transparent squares used */
+
+.board {
+    fill: rgb(227, 38, 54);
+    opacity: 0.6;
+}
+
+/* Each little tile */
+.square {
+	stroke: #00693E;
+	fill: #009E60;
+}
+
+/* Color of the black tokens (player 1) */
+.black {
+	stroke: black;
+	fill: #AE0C00;
+}
+
+/* Color of the white tokens (player 2) */
+.white {
+	stroke: #000;
+	fill: #77DD77;
+}
+
+/* ~~~ Changes to the sites appearance ~~~ */
+
+/* Background color of the site */
+body  {
+	background: url("/img/christmas3.jpg");
+}
+
+/* changes the top tokens bar thing */
+.banner-overlay {
+    background: rgba(0, 107, 60, 0.2);
+}
+
+/* Color of the big boxes on the home screen */
+.panel {
+	background: #177245;
+}
+.modal-content {
+    background: #8B0000;
+}
+
+.panel:hover {
+	background: #560319;
+}
+span.glyphicon {
+	color: #03C03C;
+}
+
+/* Color of form elements */
+input, select {
+	background: #DB7093;
+}
+
+/* Header color */
+.navbar-inverse {
+	background: #177245;
+    border-color: #080808;
+}
+
+/* Text colors/sizes */
+a, span, h2, h4, h5, h6, div {
+	color: #eee;
+}
+
+h1, h3, p {
+    color:azure;
+}
