@@ -1,5 +1,6 @@
 # senggo
 SENG 299 Go Project
+Authors:  Justin Richard, Cailan St Martin, Shreyas Devalapurkar, Will Brimacome, Will Grosset
 
 ##Quick-Start Guide
 
